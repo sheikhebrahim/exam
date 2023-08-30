@@ -1,0 +1,171 @@
+
+
+@media (min-width:320px) and (max-width:575.98px){
+     /* ================navbar part start============= */
+    
+  /* ================navbar part start============= */
+    
+.navbar-toggler{
+    border: 0;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-collapse .navbar-nav{
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    margin: 0;
+}
+#navber .navbar .collapse .navbar-nav {
+    margin-left: 24px;
+    text-align: center;
+}
+
+#navber .navbar ul li {
+	margin: 0 auto 30px;
+}
+
+ 
+#navber .navbar ul li a::before{
+    width: 0%;
+ }
+
+    /* ==============navbar part end========== */
+    
+    /* ==============banner part start========== */
+    
+    #banner .banner-img .item h1 {
+        width: 300px;
+        font-size: 22px;
+    }
+
+    #banner .banner-img .item p {
+        width: 300px;
+    }
+
+    #banner .banner-img .item .button {
+        flex-direction: column;
+    }
+
+    #banner .banner-img .item .button .location input {
+        padding: 13px 0 13px 41px;
+        width: 300px;
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    #banner .banner-img .item .button .location i {
+        left: 14px;
+        top: 14px;
+    }
+
+    #banner .banner-img .item .button a {
+        padding: 12px 20px 13px 17px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    /* ==============banner part end========== */
+    
+    /* ==============tahapan part start========== */
+        
+    #tahapan {
+        padding: 50px 0;
+    }
+
+    #tahapan .title h1 {
+        width: 300px;
+        font-size: 24px;
+    }
+
+    /* ==============tahapan part end========== */
+    
+    /* ==============residen part start========== */
+    #residen .one img{
+        width: 300px;
+    }
+
+    #residen .one h3 {
+        width: 300px;
+        font-size: 20px;
+    }
+
+    #residen .one p {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    #residen .one a {
+        margin-left: 35px;
+    }
+
+    #residen .one a i{
+        margin-bottom: 40px;
+    }
+
+    #residen .one .left {
+        margin-left: 34px;
+        padding: 15px 29px;
+    }
+
+    /* ==============residen part end========== */
+    
+    /* ==============kota part start========== */
+    #kota .card p {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    /* ==============kota part end========== */
+    
+    /* ==============hubungi part start========== */
+    
+    #hubungi .img img {
+        margin: 45px 0 0 -36px;
+    }
+    
+    /* ==============hubungi part end========== */
+    
+    /* ==============footer part start========== */
+    
+    #footer .item {
+        flex-direction: column;
+    }
+
+    #footer .item .one{
+        text-align: center;
+    }
+
+    #footer .item .one a {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #footer .item .two{
+        margin-top: 20px;
+    }
+
+
+    /* ==============footer part end========== */
+
+    
+}
+
+@media (min-width:576px) and (max-width:767.98px){
+
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+
+}
+
+@media (min-width:992px) and (max-width:1199.98px){
+
+}
+
+

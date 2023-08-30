@@ -1,0 +1,413 @@
+
+
+/* ===========common css start============ */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+a, ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+
+/* ======================navbar part start======================= */
+
+#navber{
+    background: #EEEDDE;
+}
+
+#navber .navbar {
+    
+    padding-top: 20px;
+ }
+ 
+ #navber .navbar ul{
+    margin-left: 553px;
+ }
+ 
+ #navber .navbar ul li{
+    margin-left: 100px;
+    position: relative;
+ }
+ 
+ #navber .navbar ul li a::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: #000;
+
+
+ }
+ 
+ #navber .navbar ul li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #203239;
+ }
+ 
+
+
+/* ======================navbar part end======================= */
+
+/* ======================banner part start======================= */
+ #banner{
+    background: #EEEDDE;
+    padding: 97px 0 120px;
+ }
+
+
+ #banner .banner-img .item h1{
+    width: 777px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 150%;
+    color: #203239;
+ }
+
+ #banner .banner-img .item p{
+    margin: 24px 0 55px;
+    width: 544px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(32, 50, 57, 0.55);
+ }
+
+ #banner .banner-img .item .button{
+    display: flex;
+ }
+
+ #banner .banner-img .item .button .location{
+   position: relative;
+ }
+
+ #banner .banner-img .item .button .location i{
+   position: absolute;
+   left: 20px;
+   top: 23px;
+
+ }
+
+ #banner .banner-img .item .button .location input{
+    padding: 23px 0 23px 56px;
+    width: 508px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 15px;
+    color: rgba(32, 50, 57, 0.55);
+    border: none;
+ }
+
+ #banner .banner-img .item .button a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(32, 50, 57, 0.55);
+    padding: 23px 20px 23px 17px;
+    background: #fff;
+    border-radius: 15px;
+    margin-left: 15px;
+    
+ }
+
+/* ======================banner part end======================= */
+
+/* ======================tahapan part start======================= */
+
+#tahapan{
+   padding: 100px 0;
+}
+
+#tahapan .title h1{
+   width: 533px;
+   height: 108px;
+   left: 100px;
+   top: 100px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 150%;
+   color: #203239;
+   margin-bottom: 64px;
+}
+
+#tahapan .item{
+   border: 1px solid #EEEDDE;
+   border-radius: 10px;
+   width: 300px;
+   position: relative;
+}
+
+#tahapan .item .tab{
+   position: absolute;
+   width: 8px;
+   height: 30px;
+   left: 0px;
+   top: 17px;
+   
+   background: #FF7527;
+   border-radius: 5px;
+}
+
+#tahapan .item .text{
+   padding: 20px 0 20px 33px;
+}
+
+#tahapan .item .text h3{
+
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color: #203239;
+}
+
+#tahapan .item .text h3 span{
+   margin-left: 132px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FF7527;
+}
+
+#tahapan .item .text p{
+   width: 232px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 30px;
+   color: rgba(32, 50, 57, 0.55);
+   margin: 8px 0 48px;
+   
+}
+
+#tahapan .item .text a{
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color: #203239;
+   
+   
+}
+
+#tahapan .item .text i{
+   margin-left: 13px;
+   
+}
+
+
+/* ======================tahapan part end======================= */
+
+/* ======================residen part start======================= */
+
+#residen{
+   background: #EEEDDE;
+   padding: 68px 0;
+}
+
+#residen .title h4{
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FF7527;
+}
+
+#residen .title h3{
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 150%;
+   color: #203239;
+   margin: 8px 0 64px;
+}
+
+#residen .one h3{
+   width: 507px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 150%;
+   color: #203239;
+   margin: 39px 0 24px;
+}
+
+#residen .one p{
+   width: 570px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 30px;
+   color: #203239;
+   margin-bottom: 48px;
+}
+
+#residen .one a{
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color: #203239;
+   padding: 13px 41px;
+   border: 1px solid #203239;
+   border-radius: 10px;
+}
+
+#residen .one a i{
+   margin-right: 12px;
+}
+
+#residen .one .left{
+   margin-left: 48px;
+   background: #203239;
+   color: #fff;
+}
+
+/* ======================residen part end======================= */
+
+/* ======================kota part start======================= */
+#kota{
+   padding: 68px 0;
+}
+
+#kota .title h4{
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FF7527;
+}
+
+#kota .title h2{
+   padding: 8px 0 64px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 150%;
+   color: #203239;
+}
+
+#kota .card{
+   border: none;
+}
+
+#kota .card h3{
+   margin: 16px 0 8px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 150%;
+   color: #203239;
+}
+
+#kota .card p{
+   width: 356px; 
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 30px;
+   color: #203239;
+}
+
+/* ======================kota part end======================= */
+
+/* ======================hubungi part start======================= */
+#hubungi{
+   padding: 48px 0;
+   background: #EEEDDE;
+}
+
+#hubungi .item{
+   width: 243px;
+   margin-top: 63px;
+   border-radius: 10px;
+   padding: 30px 0 48px;
+   background: #EEEDDE;
+   border: 1px solid #FF7527;
+   position: relative;
+}
+
+#hubungi .item i{
+   position: absolute;
+   font-size: 18px;
+   margin: 20px 0 0 24px;
+}
+
+#hubungi .item a{
+   
+   margin-left: 24px;
+   padding: 13px 61.5px;
+   background: rgba(255, 117, 39, 0.2);
+   border-radius: 10px;
+   color: #FF7527;
+}
+
+#hubungi .item .text{
+   margin-left: 80px;
+   margin-bottom: 28px;
+
+}
+
+#hubungi .img img{
+   margin: 88px 0 0 204px;
+}
+
+/* ======================hubungi part end======================= */
+
+/* ======================footer part start======================= */
+
+#footer{
+   background: #203239;
+   padding: 31px 0;
+}
+
+#footer .item{
+   display: flex;
+   justify-content: space-between;
+}
+
+#footer .item .one a{
+   color: white;
+   margin-left: 64px;
+}
+
+/* ======================footer part end======================= */
